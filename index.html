@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Account Switcher for Threads</title>
+  <style>
+    :root { --bg: #fff; --fg: #111; --muted: #555; --line: #e5e5e5; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111; --fg: #f2f2f2; --muted: #aaa; --line: #2a2a2a; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+    h1 { font-size: 28px; line-height: 1.2; margin: 0 0 4px; }
+    h2 { font-size: 19px; margin: 32px 0 8px; }
+    .date { color: var(--muted); margin: 0 0 24px; }
+    li { margin: 4px 0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0 24px; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="date">Account Switcher for Threads · Last updated: November 11, 2026</p>
+
+  <p>Account Switcher for Threads (“the extension”) lets you switch between several of your own Threads accounts in Google Chrome. This policy explains what data the extension handles and what it does with it.</p>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>Your data never leaves your computer.</li>
+    <li>The extension has no server, no analytics and no tracking.</li>
+    <li>Nothing is sold, shared or transferred to anyone.</li>
+  </ul>
+
+  <h2>Data the extension handles</h2>
+  <ul>
+    <li><strong>Threads session cookies.</strong> When you save an account, the extension reads the cookies set by threads.com for the account you are signed in to. When you switch accounts, it writes the saved cookies back. These cookies are authentication information: they keep you signed in to Threads.</li>
+    <li><strong>The name you give each account</strong>, its numeric Threads account ID (read from the cookies), and the dates it was saved and last used.</li>
+  </ul>
+  <p>The extension only accesses cookies of threads.com and its subdomains. It never reads or changes Instagram cookies or cookies of any other website. It does not read the content of the pages you visit, your posts, your messages or your browsing history.</p>
+
+  <h2>Where the data is stored</h2>
+  <p>All of this data is stored locally on your device, in the extension's own storage (<code>chrome.storage.local</code>). It is not synchronized with your Google account and is not sent to any server, including ours. Only the extension itself can read it.</p>
+  <p>The saved sessions are not encrypted by the extension. Anyone or any software with access to your computer and Chrome profile could potentially use them, just as they could use the accounts you are already signed in to.</p>
+
+  <h2>Network requests</h2>
+  <p>The extension makes no network requests of its own. It reloads your open Threads tabs after a switch, which Threads handles like any normal page load. The extension menu contains a link to Bouncer, an app by the same creator. Clicking it opens the Bouncer website in a new tab; no data from the extension is sent with it.</p>
+
+  <h2>How to delete your data</h2>
+  <ul>
+    <li>Remove a saved account with the ✕ button in the extension menu.</li>
+    <li>Uninstalling the extension deletes all saved accounts.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>The extension is not directed at children and does not knowingly collect data from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be published at this address with an updated date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="https://github.com/yohanology/threads-account-switcher-privacy/issues">open an issue on GitHub</a>.</p>
+
+  <hr>
+  <p>Account Switcher for Threads is not affiliated with, endorsed or sponsored by Meta Platforms, Inc. Threads and Instagram are trademarks of Meta Platforms, Inc.</p>
+</main>
+</body>
+</html>
